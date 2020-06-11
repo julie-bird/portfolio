@@ -1,0 +1,36 @@
+.main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+.about-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.p-container {
+    border-left: 1px solid black;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.title {
+    font-size: 50px;
+    font-family: 'Poiret One', cursive;
+}
+.paragraph {
+    font-size: 15px;
+}
+.p1 {
+    margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+    .p-container {
+        width: 50%;
+    }
+    .title {
+        font-size: 80px;
+    }
+}

@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 85vh;
+}
+.contact-div {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fdfdfd;
+}
+.li {
+    font-size: 20px;
+    border-left: 1px solid black;
+    padding-left: 15px;
+}
+.title {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Poiret One', cursive;
+}
+.links-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.fab {
+    color: rgb(161, 190, 201);
+    font-size: 20px;
+    padding: 5px;
+}
+.fab:hover {
+    color: rgb(127, 149, 157);
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 80px;
+    }
+    .li {
+        font-size: 30px;
+    }
+    .fab {
+        font-size: 35px;
+    }
+}
