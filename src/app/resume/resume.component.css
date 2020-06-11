@@ -11,8 +11,9 @@
     align-items: center;
 }
 .paragraph {
-    width: 500px;
+    width: 80%;
     text-align: justify;
+    margin-bottom: 15px;
 }
 .title {
     font-size: 50px;
@@ -27,12 +28,12 @@
     flex-wrap: wrap;
     width: 400px;
     justify-content: space-between;
-    flex-basis: 33.3333%;
+    /* flex-basis: 25%; */
 }
 .li {
     display: flex;
     align-items: center;
-    margin: 0 10px;
+    margin: 5px 10px;
     padding: 0;
 }
 .fas {
@@ -42,9 +43,10 @@
 .resume-link {
     color: black;
     border: 0.2px solid rgb(194, 194, 194);
-    padding: 2px 4px;
-    background-color: rgb(204, 240, 253);
+    padding: 4px 7px;
+    /* background-color: rgb(204, 240, 253); */
     border-radius: 5px;
+    margin-top: 20px;
 }
 .resume-link:hover {
     color: rgb(58, 58, 82);
@@ -52,5 +54,8 @@
 @media screen and (min-width: 768px) {
     .title {
         font-size: 80px;
+    }
+    .paragraph {
+        width: 500px;
     }
 }
